@@ -22,7 +22,7 @@
     />
     <link rel="stylesheet" href="styles/style.css" />
     <script src="js/index.js"></script>
-    <title>Valentin Louis Findling: Kontakt</title>
+    <title>Kontakt: Valentin Louis Findling</title>
   </head>
   <body class="text-bg-dark">
     <nav
@@ -94,7 +94,7 @@
     <div class="contact-form">
       <div class="row g-3 mt-4">
         <div class="col mb-4">
-          <label for="exampleFormControlInput1" class="form-label"
+          <label for="exampleFormControlInput1" class="form-label" required
             >Vorname</label
           >
           <input
@@ -117,7 +117,7 @@
         </div>
       </div>
       <div class="mb-4">
-        <label for="exampleFormControlInput1" class="form-label"
+        <label for="exampleFormControlInput1" class="form-label" required
           >E-mail Adresse</label
         >
         <input
@@ -127,6 +127,13 @@
           placeholder="name@beispiel.com"
         />
       </div>
+      <select class="form-select mb-4" aria-label="Default select example">
+        <option selected>Anfrageoption</option>
+        <option value="1">Firmenevent</option>
+        <option value="2">Private Feier</option>
+        <option value="3">Unterricht</option>
+        <option value="4">Sonstiges</option>
+      </select>
       <div class="mb-4">
         <label for="exampleFormControlTextarea1" class="form-label"
           >Ihre Nachricht</label
