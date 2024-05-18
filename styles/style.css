@@ -5,6 +5,40 @@ body {
   text-align: center;
 }
 
+i {
+  font-size: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.instagram:hover {
+  background-image: linear-gradient(
+    168deg,
+    #651ff5 0%,
+    #e139c6 20%,
+    #e95035 62%,
+    #f8d648 93%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.facebook:hover {
+  color: #0866ff;
+}
+.youtube:hover {
+  color: #ff0000;
+}
+
+.queen {
+  text-align: center;
+  color: blueviolet;
+}
+
+.knights {
+  text-align: center;
+  color: #fedc01;
+}
+
 p {
   font-size: 18px;
 }
