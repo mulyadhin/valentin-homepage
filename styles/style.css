@@ -1,6 +1,10 @@
 body {
   font-family: "Lato", sans-serif;
 }
+.projekte h1 {
+  text-align: center;
+}
+
 p {
   font-size: 18px;
 }
